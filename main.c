@@ -1,14 +1,14 @@
 #include<stdio.h>
-#include <stdlib.h>
+//#include <stdlib.h>
 int main()
 {
 	char message[100], ch;
 	int i, key;
 	
-	printf("Enter a message to encrypt: ");
-	scanf("%s",&message);
-	printf("Enter key: ");
-	scanf("%d", &key);
+	printf("Enter a message to encrypt: \n");
+	scanf("%s",message);
+	printf("Enter key: \n");
+	scanf("%d\n", &key);
 	
 	for(i = 0; message[i] != '\0'; ++i){
 		ch = message[i];
@@ -37,9 +37,9 @@ int main()
 	printf("Encrypted message: %s\n", message);
 	
 	//char message1[]=message[];
-	printf("Enter a message to decrypt:",message);
-	scanf("%s",&message);
-	printf("Enter key: ");
+	printf("Enter a message to decrypt:\n");
+	scanf("%s\n",message);
+	printf("Enter key:\n ");
 	scanf("%d", &key);
 	
 	for(i = 0; message[i] != '\0'; ++i){
