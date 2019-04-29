@@ -1,14 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-// void rotation();
- //void rotation_dec(char message[100]);
- 
-//int main()
-//{
-//    rotation();
-//    rotation_decrypt();
-//    substitution();
-//}
+
 void rotation()
 {
 	char message[100], ch;
